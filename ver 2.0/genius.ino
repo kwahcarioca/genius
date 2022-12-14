@@ -88,6 +88,7 @@ void loop() {
 
 /* Função que sorteia a sequência da próxima rodada */
 void proximaRodada() {
+  printf("Proxima Rodada\n");
   sequencia[rodada] = random(4);
   rodada = rodada + 1;
 }
